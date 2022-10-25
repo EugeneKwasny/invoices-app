@@ -1,3 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+}
+
+h1{
+    /* Heading/Heading 1 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 109px;
+    /* identical to box height */
+    color: #000000;
+}
+h2{
+    /* Heading/Heading 2 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 71px;
+    color: #000000;
+}
+h3{
+    /* Heading/Heading 3 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+}
+h4{
+    /* Heading/Heading 4 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 45px;
+    /* identical to box height */
+    color: #000000;
+}
+h5{
+    /* Heading/Heading 5 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    /* identical to box height */
+
+    color: #000000;
+}
+h6{
+    /* Heading/Heading SemiBold 1 */
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 64px;
+    /* identical to box height */
+    color: #000000;
+}

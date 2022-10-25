@@ -22,6 +22,7 @@ import iconClock from './icons/icon-clock.svg';
 import iconArrowLeft from './icons/icon-arrow-left.svg';
 import iconArrowRight from './icons/icon-arrow-right.svg';
 import iconOption from  './icons/icon-option.svg';
+import logo from './icons/logo.svg';
 
 const icons = {
     iconBell, 
@@ -46,7 +47,8 @@ const icons = {
     iconClock,
     iconArrowLeft,
     iconArrowRight,
-    iconOption
+    iconOption,
+    logo
 }
 
 export default icons;

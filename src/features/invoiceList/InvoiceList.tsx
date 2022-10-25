@@ -7,8 +7,8 @@ export default function InvoiceList()
         <section>
         <header>
           <div>
-            <h1>Invoices List</h1>
-            <p>Lorem ipsum  dolor sit amet</p>
+            <h1 className="text-2xl">Invoices List</h1>
+            <p className="hidden">Lorem ipsum  dolor sit amet</p>
           </div>
           <div>
             <form>
